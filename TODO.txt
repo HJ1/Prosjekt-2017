@@ -1,0 +1,11 @@
+PyMike
+
+1. Platformer
+- gameboy farger(black white grey)
+- Keyboard / Joystick(HJ)
+- Camera følger etter
+- Ground floor
+- Random objekter kommer fra høyre
+
+  
+
