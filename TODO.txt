@@ -6,6 +6,7 @@ PyMike
 - Camera følger etter
 - Ground floor
 - Random objekter kommer fra høyre
+- Magic
 
   
 
