@@ -28,3 +28,33 @@ echo: - skriver tilbake det du har skrevet. sier output.
 alias: - kommandoer med navn og definasjoner
 exit: - avslutter Git
 command: - liste over masse kommandoer
+
+1:
+Klone til Skrivebord
+-- git clone https://www.github.com/HJ1/Prosjekt-2017
+
+2: 
+Git Pull til skrivebord
+-- git pull origin master
+Laster ned oppdateringer fra master.
+
+3:
+Legge til Github
+-- cd desktop
+-- cd mappe (hvis det er mellomrom i mappen trenger du "")
+-- git add .
+(Punktum legger til alle filer og mapper)
+-- git commit -m "message"
+Legger til en melding på opplastningen og du kan se hvem som laster opp.
+-- git push -u origin master
+Laster opp til master på github. Hvis ikke origin er definert må du bruke git remote add origin (https://www.github.com/HJ1/Prosjekt-2017
+
+4:
+Status og logger
+-- git log
+-- git status
+
+
+
+  
+
