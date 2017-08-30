@@ -1,3 +1,3 @@
-Prosjekt 2017
+Project 2017
 
 Python and Pygame
