@@ -1,11 +1,12 @@
-import pygame
+import pygame, sys
 from pygame.locals import *
 pygame.init()
 pygame.joystick.init()
 
 try:
     j = pygame.joystick.Joystick(0)
-    j.init() 
+    j.init()
+    print "Har lagt til stotte for N64 kontroller og ESC knapp \n"
     print 'Enabled joystick: ' + j.get_name()
 except:
     pass
@@ -16,10 +17,10 @@ running = True
 while running == True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-                running = False
+            running = False
         if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
-                running = False
-
+            running = False, sys.exit()
+                
         #Controller
         if event.type == pygame.JOYBUTTONDOWN:
                 print event

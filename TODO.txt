@@ -1,8 +1,8 @@
-PyMike
-
 1. Platformer
+
 - gameboy farger(black white grey)
-- Keyboard / Joystick(HJ)
+- Pygame Vindu(HJ) O.K
+- Keyboard / Joystick(HJ) O.K
 - Camera følger etter
 - Ground floor
 - Random objekter kommer fra høyre
@@ -10,6 +10,7 @@ PyMike
 - Menu
 - Musikk
 - Lyd effekter
+- Klasser
 
 
   
