@@ -7,6 +7,10 @@ PyMike
 - Ground floor
 - Random objekter kommer fra høyre
 - Magic
+- Menu
+- Musikk
+- Lyd effekter
+
 
   
 
