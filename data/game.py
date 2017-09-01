@@ -44,7 +44,7 @@ while running == True:
                 print "L BUTTON"
         elif event.type == pygame.JOYBUTTONDOWN and event.button == 12:
                 print "R BUTTON"
-                pygame.quit()
+                running = False
         elif event.type == pygame.JOYBUTTONDOWN and event.button == 5:
                 print "Z BUTTON"
         elif event.type == pygame.JOYBUTTONDOWN and event.button == 11:
