@@ -1,8 +1,11 @@
 1. Platformer
 
-- gameboy farger(black white grey)
+Done:
 - Pygame Vindu(HJ) O.K
 - Keyboard / Joystick(HJ) O.K
+
+Work:
+- gameboy farger(black white grey)
 - Camera følger etter
 - Ground floor
 - Random objekter kommer fra høyre

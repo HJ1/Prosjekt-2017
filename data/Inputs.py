@@ -6,7 +6,6 @@ pygame.joystick.init()
 try:
     j = pygame.joystick.Joystick(0)
     j.init()
-    print "Har lagt til stotte for N64 kontroller og ESC knapp \n"
     print 'Enabled joystick: ' + j.get_name()
 except:
     pass
@@ -54,4 +53,3 @@ while running == True:
                 print "DPAD LEFT"
         elif event.type == pygame.JOYBUTTONDOWN and event.button == 0:
                 print "DPAD RIGHT"
-    
