@@ -1,2 +1,2 @@
 from data import main
-main.main()
+main.run()
