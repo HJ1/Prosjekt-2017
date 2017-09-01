@@ -11,10 +11,4 @@ def run():
     import game
 
 if __name__ == "__main__":
-    run()   
-
-    
-
-
-
-
+    run()

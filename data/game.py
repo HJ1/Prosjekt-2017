@@ -27,7 +27,7 @@ while running == True:
             running = False
         #Keyboard
         if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
-            running = False, sys.exit(), 
+            running = False, sys.exit()
                 
         #Controller
         if event.type == pygame.JOYBUTTONDOWN:
